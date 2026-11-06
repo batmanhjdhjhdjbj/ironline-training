@@ -11,7 +11,7 @@ export function Hero() {
   return (
     <section id="top" className="relative flex min-h-[100svh] items-end overflow-hidden pb-20 pt-32 md:items-center">
       <img src={hero} alt="Athlete setting up for a heavy deadlift" width={1920} height={1088} className="absolute inset-0 h-full w-full object-cover object-[70%_center]" />
-      <div className="absolute inset-0 bg-gradient-to-r from-overlay via-overlay/80 to-overlay/30" aria-hidden />
+      <div className="absolute inset-0 bg-gradient-to-r from-overlay/90 via-overlay/50 to-transparent" aria-hidden />
       <div className="relative mx-auto w-full max-w-7xl px-5">
         <div className="max-w-2xl animate-in fade-in slide-in-from-bottom-6 duration-700">
           <p className="mb-5 text-xs font-semibold uppercase tracking-[0.3em] text-primary">Coach Mo · IRONLINE Training</p>

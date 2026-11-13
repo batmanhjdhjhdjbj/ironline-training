@@ -11,9 +11,17 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "IRONLINE Training — Coach-Built Strength Programs" },
-      { name: "description", content: "Stop guessing, start training. Structured strength programs by Coach Mo Reyes, CSCS. Follow anywhere." },
+      {
+        name: "description",
+        content:
+          "Stop guessing, start training. Structured strength programs by Coach Mo Reyes, CSCS. Follow anywhere.",
+      },
       { property: "og:title", content: "IRONLINE Training — Coach-Built Strength Programs" },
-      { property: "og:description", content: "Structured, coach-built programs you can follow anywhere. 30-day money-back guarantee." },
+      {
+        property: "og:description",
+        content:
+          "Structured, coach-built programs you can follow anywhere. 30-day money-back guarantee.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],

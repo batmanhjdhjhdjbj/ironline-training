@@ -7,7 +7,7 @@ Single goal: Every section should drive the visitor toward one primary CTA: “S
 Design direction:
 
 Dark, bold, athletic aesthetic: near-black background (
-#0A0A0A), off-white text, and one high-energy accent (electric orange 
+#0A0A0A), off-white text, and one high-energy accent (electric orange
 #FF4D1F)
 Heavy condensed display font for headlines (e.g., Oswald or Bebas Neue) paired with a clean sans-serif body font (e.g., Inter)
 Generous spacing, large type, sharp corners, subtle hover and scroll-reveal animations

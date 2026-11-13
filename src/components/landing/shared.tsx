@@ -49,7 +49,15 @@ export function Eyebrow({ children }: { children: ReactNode }) {
   );
 }
 
-export function SectionTitle({ eyebrow, title, sub }: { eyebrow: string; title: string; sub?: string }) {
+export function SectionTitle({
+  eyebrow,
+  title,
+  sub,
+}: {
+  eyebrow: string;
+  title: string;
+  sub?: string;
+}) {
   return (
     <div className="mx-auto mb-14 max-w-2xl text-center">
       <Eyebrow>{eyebrow}</Eyebrow>
